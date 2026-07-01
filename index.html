@@ -7,38 +7,22 @@
 <meta name="description" content="Portfolio of RB Jenn Mortejo — Licensed Civil Engineer and customer-facing specialist. Estimating, BOQs, appointment setting, and client relations.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Drafting frame overlay -->
-<div class="frame" aria-hidden="true">
-  <span class="frame__corner frame__corner--tl"></span>
-  <span class="frame__corner frame__corner--tr"></span>
-  <span class="frame__corner frame__corner--bl"></span>
-  <span class="frame__corner frame__corner--br"></span>
-  <span class="frame__rev">REV 01 &middot; 2026</span>
-</div>
-
 <!-- NAV -->
 <header class="nav" id="nav">
   <a href="#home" class="nav__mark" aria-label="Home">
-    <svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true">
-      <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.2"/>
-      <line x1="20" y1="2" x2="20" y2="10" stroke="currentColor" stroke-width="1.2"/>
-      <line x1="20" y1="30" x2="20" y2="38" stroke="currentColor" stroke-width="1.2"/>
-      <line x1="2" y1="20" x2="10" y2="20" stroke="currentColor" stroke-width="1.2"/>
-      <line x1="30" y1="20" x2="38" y2="20" stroke="currentColor" stroke-width="1.2"/>
-      <text x="20" y="24" text-anchor="middle" font-family="IBM Plex Mono" font-size="11" fill="currentColor">RBJ</text>
-    </svg>
+    <span class="nav__monogram">RBJ</span>
   </a>
   <nav class="nav__links" id="navLinks">
-    <a href="#about"><span class="nav__code">A-01</span> About</a>
-    <a href="#experience"><span class="nav__code">A-02</span> Experience</a>
-    <a href="#skills"><span class="nav__code">A-03</span> Tools</a>
-    <a href="#work"><span class="nav__code">B-01</span> Featured Work</a>
-    <a href="#contact"><span class="nav__code">A-06</span> Contact</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Tools</a>
+    <a href="#work">Featured Work</a>
+    <a href="#contact">Contact</a>
   </nav>
   <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -50,11 +34,12 @@
   <!-- HERO -->
   <section class="hero" id="home">
     <img src="images/hero-backdrop.png" alt="" class="hero__backdrop" aria-hidden="true">
-    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__bloom hero__bloom--one" aria-hidden="true"></div>
+    <div class="hero__bloom hero__bloom--two" aria-hidden="true"></div>
     <div class="hero__inner">
       <div class="hero__lead">
         <p class="eyebrow">Licensed Civil Engineer &middot; Client Relations &amp; Estimating</p>
-        <h1 class="hero__name">RB Jenn<br>Mortejo</h1>
+        <h1 class="hero__name">RB Jenn<br><em>Mortejo</em></h1>
         <p class="hero__tagline">I draft accurate numbers on paper and build honest rapport on the line — five years split evenly between quantity takeoffs and quota-carrying conversations.</p>
         <div class="hero__cta">
           <a href="#work" class="btn btn--primary">View Featured Work</a>
@@ -66,37 +51,23 @@
         <figure class="photo-card photo-card--hero">
           <img src="images/profile.png" alt="Portrait of RB Jenn Mortejo">
         </figure>
-        <div class="titleblock" role="img" aria-label="Drawing title block with profile summary">
-          <svg class="titleblock__border" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-            <rect x="0.5" y="0.5" width="99" height="99" fill="none" stroke="currentColor" stroke-width="0.4" pathLength="100" class="draw-line"/>
-          </svg>
-          <div class="titleblock__row titleblock__row--title">
-            <span class="titleblock__label">Project</span>
-            <span class="titleblock__value">Career Portfolio</span>
+        <div class="infocard" role="img" aria-label="Summary card with profile details">
+          <p class="infocard__eyebrow">At a glance</p>
+          <div class="infocard__row">
+            <span class="infocard__label">Role</span>
+            <span class="infocard__value">Civil Engineer &amp; Client Success</span>
           </div>
-          <div class="titleblock__row">
-            <span class="titleblock__label">Drawn by</span>
-            <span class="titleblock__value">RB Jenn Mortejo</span>
+          <div class="infocard__row">
+            <span class="infocard__label">Based in</span>
+            <span class="infocard__value">Tagum City, Philippines</span>
           </div>
-          <div class="titleblock__row">
-            <span class="titleblock__label">Discipline</span>
-            <span class="titleblock__value">Civil / Client Success</span>
+          <div class="infocard__row">
+            <span class="infocard__label">Experience</span>
+            <span class="infocard__value">5+ years, remote &amp; on-site</span>
           </div>
-          <div class="titleblock__row">
-            <span class="titleblock__label">Location</span>
-            <span class="titleblock__value">Tagum City, PH</span>
-          </div>
-          <div class="titleblock__row">
-            <span class="titleblock__label">Scale</span>
-            <span class="titleblock__value">N.T.S.</span>
-          </div>
-          <div class="titleblock__row">
-            <span class="titleblock__label">Sheet</span>
-            <span class="titleblock__value">01 of 06</span>
-          </div>
-          <div class="titleblock__row titleblock__row--last">
-            <span class="titleblock__label">Status</span>
-            <span class="titleblock__value titleblock__value--tag">Open to Remote Roles</span>
+          <div class="infocard__row infocard__row--last">
+            <span class="infocard__label">Availability</span>
+            <span class="infocard__value infocard__value--tag">Open to Remote Roles</span>
           </div>
         </div>
       </div>
@@ -109,7 +80,7 @@
   <!-- ABOUT -->
   <section class="sheet" id="about" data-reveal>
     <div class="sheet__head">
-      <span class="sheet__code">A-01</span>
+      <p class="sheet__eyebrow">Get to know me</p>
       <h2 class="sheet__title">About</h2>
     </div>
 
@@ -141,12 +112,8 @@
     </div>
 
     <div class="education-card">
-      <div class="education-card__icon" aria-hidden="true">
-        <svg viewBox="0 0 48 48" width="42" height="42">
-          <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          <path d="M24 14 L36 20 L24 26 L12 20 Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
-          <path d="M17 22.5 V29 C17 31 20 33 24 33 C28 33 31 31 31 29 V22.5" fill="none" stroke="currentColor" stroke-width="1.2"/>
-        </svg>
+      <div class="education-card__seal">
+        <img src="images/certificate-seal.png" alt="Licensed Civil Engineer certification badge">
       </div>
       <div class="education-card__body">
         <p class="education-card__eyebrow">Education &amp; Credential</p>
@@ -154,16 +121,13 @@
         <p class="education-card__meta">Davao Oriental State University &middot; Class of 2020</p>
         <p class="education-card__desc">Licensed Civil Engineer, Philippines. Built a foundation in engineering principles and critical problem-solving that now shows up equally in a spreadsheet of quantities or a call script.</p>
       </div>
-      <div class="education-card__seal">
-        <img src="images/certificate-seal.png" alt="Licensed Civil Engineer certification badge">
-      </div>
     </div>
   </section>
 
   <!-- EXPERIENCE -->
-  <section class="sheet sheet--ink" id="experience" data-reveal>
+  <section class="sheet sheet--tint" id="experience" data-reveal>
     <div class="sheet__head">
-      <span class="sheet__code">A-02</span>
+      <p class="sheet__eyebrow">Where I've worked</p>
       <h2 class="sheet__title">Work Experience</h2>
     </div>
 
@@ -246,7 +210,7 @@
   <!-- SKILLS / TOOLS -->
   <section class="sheet" id="skills" data-reveal>
     <div class="sheet__head">
-      <span class="sheet__code">A-03</span>
+      <p class="sheet__eyebrow">What I work in</p>
       <h2 class="sheet__title">Tools &amp; Software</h2>
     </div>
 
@@ -254,34 +218,73 @@
       <div class="tool-group">
         <p class="tool-group__label">Engineering &amp; Estimating</p>
         <div class="tool-grid">
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><rect x="5" y="5" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="5" y1="12" x2="27" y2="12" stroke="currentColor" stroke-width="1"/><line x1="12" y1="5" x2="12" y2="27" stroke="currentColor" stroke-width="1"/></svg><span>AutoCAD</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><path d="M5 24 L14 10 L20 18 L27 8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><circle cx="14" cy="10" r="1.6" fill="currentColor"/><circle cx="20" cy="18" r="1.6" fill="currentColor"/></svg><span>Civil 3D</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><rect x="6" y="6" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="6" y1="13" x2="26" y2="13" stroke="currentColor" stroke-width="1"/><line x1="6" y1="20" x2="26" y2="20" stroke="currentColor" stroke-width="1"/><line x1="14" y1="6" x2="14" y2="26" stroke="currentColor" stroke-width="1"/></svg><span>PlanSwift</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><path d="M8 24 V12 L16 6 L24 12 V24 Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><line x1="8" y1="12" x2="24" y2="12" stroke="currentColor" stroke-width="1"/></svg><span>Bluebeam Revu</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><path d="M6 22 L16 8 L26 22 Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><line x1="12" y1="22" x2="16" y2="14" stroke="currentColor" stroke-width="1"/></svg><span>SketchUp</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><rect x="6" y="6" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="6" y1="14" x2="26" y2="14" stroke="currentColor" stroke-width="1"/><line x1="16" y1="6" x2="16" y2="26" stroke="currentColor" stroke-width="1"/></svg><span>Microsoft Excel</span></div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/autocad.png" alt="AutoCAD logo" class="tool__logo"></span>
+            <span>AutoCAD</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/civil3d.png" alt="Civil 3D logo" class="tool__logo"></span>
+            <span>Civil 3D</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/planswift.png" alt="PlanSwift logo" class="tool__logo"></span>
+            <span>PlanSwift</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/bluebeam.png" alt="Bluebeam Revu logo" class="tool__logo"></span>
+            <span>Bluebeam Revu</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/sketchup.png" alt="SketchUp logo" class="tool__logo"></span>
+            <span>SketchUp</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/excel.png" alt="Microsoft Excel logo" class="tool__logo"></span>
+            <span>Microsoft Excel</span>
+          </div>
         </div>
       </div>
 
       <div class="tool-group">
         <p class="tool-group__label">Client &amp; Workflow</p>
         <div class="tool-grid">
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><circle cx="16" cy="16" r="10" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M11 16 h4 l2 4 2-8 2 4 h1" fill="none" stroke="currentColor" stroke-width="1.1"/></svg><span>CRM Systems</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><rect x="5" y="9" width="22" height="15" rx="1" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M5 10 L16 18 L27 10" fill="none" stroke="currentColor" stroke-width="1.1"/></svg><span>Google Workspace</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><rect x="6" y="6" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="6" y1="12" x2="26" y2="12" stroke="currentColor" stroke-width="1"/><line x1="6" y1="18" x2="26" y2="18" stroke="currentColor" stroke-width="1"/></svg><span>Microsoft Office</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><rect x="6" y="6" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="6" y1="12" x2="26" y2="12" stroke="currentColor" stroke-width="1"/><line x1="12" y1="12" x2="12" y2="26" stroke="currentColor" stroke-width="1"/><line x1="19" y1="12" x2="19" y2="26" stroke="currentColor" stroke-width="1"/></svg><span>Google Sheets</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><path d="M16 5 L19 13 L27 13 L20.5 18 L23 26 L16 21 L9 26 L11.5 18 L5 13 L13 13 Z" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg><span>AI Tools</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><circle cx="13" cy="13" r="7" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="20" cy="20" r="7" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span>Canva</span></div>
-          <div class="tool"><svg viewBox="0 0 32 32" class="tool__icon"><rect x="5" y="9" width="17" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M22 13 L27 10 V22 L22 19 Z" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg><span>CapCut</span></div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/crm.png" alt="CRM logo" class="tool__logo"></span>
+            <span>CRM Systems</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/google-workspace.png" alt="Google Workspace logo" class="tool__logo"></span>
+            <span>Google Workspace</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/microsoft-office.png" alt="Microsoft Office logo" class="tool__logo"></span>
+            <span>Microsoft Office</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/google-sheets.png" alt="Google Sheets logo" class="tool__logo"></span>
+            <span>Google Sheets</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/ai-tools.png" alt="AI Tools logo" class="tool__logo"></span>
+            <span>AI Tools</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/canva.png" alt="Canva logo" class="tool__logo"></span>
+            <span>Canva</span>
+          </div>
+          <div class="tool">
+            <span class="tool__logo-wrap"><img src="images/logos/capcut.png" alt="CapCut logo" class="tool__logo"></span>
+            <span>CapCut</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- FEATURED WORK -->
-  <section class="sheet sheet--ink" id="work" data-reveal>
+  <section class="sheet sheet--tint" id="work" data-reveal>
     <div class="sheet__head">
-      <span class="sheet__code">B</span>
+      <p class="sheet__eyebrow">Selected estimating work</p>
       <h2 class="sheet__title">Featured Work</h2>
     </div>
     <p class="sheet__intro">A selection of estimating and quantity-surveying work — from a multi-purpose barangay hall to a billion-peso bypass. Each project below reflects real bills of quantities and unit-price analyses prepared for tendering and cost control.</p>
@@ -293,7 +296,6 @@
           <img src="images/project-fishmarket-cover.png" alt="Project perspective render of the Tagum Fish Market">
         </div>
         <div class="project__body">
-          <p class="project__kicker">Sheet B-01</p>
           <h3>Construction of Tagum Fish Market</h3>
           <p class="project__amount">₱137,000,000</p>
           <p class="project__desc">Prepared a detailed Bill of Materials for building works, including sanitary and plumbing systems, fixtures, pipes, fittings, and related components — organized to support accurate material estimation and overall cost planning.</p>
@@ -310,7 +312,6 @@
           <img src="images/project-school-cover.png" alt="Project perspective render of the 2-storey school building">
         </div>
         <div class="project__body">
-          <p class="project__kicker">Sheet B-02</p>
           <h3>2-Storey, 12-Classroom School Building</h3>
           <p class="project__amount">₱50,000,000</p>
           <p class="project__desc">Comprehensive Bill of Quantities covering earthworks, reinforced concrete, masonry, finishing, and MEP works — organized by section, with materials, labor, equipment, and mark-ups for budgeting.</p>
@@ -323,7 +324,6 @@
           <img src="images/project-multipurpose-site.png" alt="Site development plan for the multi-purpose building">
         </div>
         <div class="project__body">
-          <p class="project__kicker">Sheet B-03</p>
           <h3>Multi-Purpose Building — Design &amp; Construction</h3>
           <p class="project__amount">₱2,270,000</p>
           <p class="project__desc">Full estimating package from site development plan through ground floor layout, including Bill of Quantities and Detailed Unit Price Analysis for a community multi-purpose building.</p>
@@ -339,7 +339,6 @@
           <img src="images/project-bypass-drone.png" alt="Actual drone shot of the Davao City Bypass construction site">
         </div>
         <div class="project__body">
-          <p class="project__kicker">Sheet B-04</p>
           <h3>Davao City Bypass Construction Project</h3>
           <p class="project__amount">₱4,300,000,000</p>
           <p class="project__desc">Detailed cost breakdowns for reinforcing steel bars and structural concrete — materials, labor, and equipment derived from measured quantities and standard production rates, covering a 60-meter bridge section.</p>
@@ -356,7 +355,7 @@
   <!-- CONTACT -->
   <section class="sheet contact" id="contact" data-reveal>
     <div class="sheet__head">
-      <span class="sheet__code">A-06</span>
+      <p class="sheet__eyebrow">Say hello</p>
       <h2 class="sheet__title">Let's Work Together</h2>
     </div>
 
@@ -367,25 +366,23 @@
         <a href="mailto:mortejorbjenn@gmail.com" class="btn btn--primary">mortejorbjenn@gmail.com</a>
       </div>
 
-      <div class="titleblock titleblock--contact">
-        <svg class="titleblock__border" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-          <rect x="0.5" y="0.5" width="99" height="99" fill="none" stroke="currentColor" stroke-width="0.4"/>
-        </svg>
-        <div class="titleblock__row">
-          <span class="titleblock__label">Address</span>
-          <span class="titleblock__value">La Filipina, Tagum City, PH</span>
+      <div class="infocard infocard--contact">
+        <p class="infocard__eyebrow">Contact details</p>
+        <div class="infocard__row">
+          <span class="infocard__label">Address</span>
+          <span class="infocard__value">La Filipina, Tagum City, PH</span>
         </div>
-        <div class="titleblock__row">
-          <span class="titleblock__label">Phone</span>
-          <span class="titleblock__value"><a href="tel:+639261152564">+63 926 115 2564</a></span>
+        <div class="infocard__row">
+          <span class="infocard__label">Phone</span>
+          <span class="infocard__value"><a href="tel:+639261152564">+63 926 115 2564</a></span>
         </div>
-        <div class="titleblock__row">
-          <span class="titleblock__label">Email</span>
-          <span class="titleblock__value"><a href="mailto:mortejorbjenn@gmail.com">mortejorbjenn@gmail.com</a></span>
+        <div class="infocard__row">
+          <span class="infocard__label">Email</span>
+          <span class="infocard__value"><a href="mailto:mortejorbjenn@gmail.com">mortejorbjenn@gmail.com</a></span>
         </div>
-        <div class="titleblock__row titleblock__row--last">
-          <span class="titleblock__label">LinkedIn</span>
-          <span class="titleblock__value"><a href="https://linkedin.com/in/rb-jenn-5491933a3" target="_blank" rel="noopener">rb-jenn-5491933a3</a></span>
+        <div class="infocard__row infocard__row--last">
+          <span class="infocard__label">LinkedIn</span>
+          <span class="infocard__value"><a href="https://linkedin.com/in/rb-jenn-5491933a3" target="_blank" rel="noopener">rb-jenn-5491933a3</a></span>
         </div>
       </div>
     </div>
@@ -394,7 +391,7 @@
 </main>
 
 <footer class="footer">
-  <p>End of set &middot; 06 sheets &middot; Drawn by RB Jenn Mortejo, © 2026</p>
+  <p>Made with care by RB Jenn Mortejo &middot; © 2026</p>
 </footer>
 
 <script src="script.js"></script>
